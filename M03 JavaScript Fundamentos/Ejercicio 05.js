@@ -42,16 +42,12 @@ function deEuroAdolar(euro) {
 }
 
 function esVocal(letra) {
-   if (letra.length != 1) {
-      return "Dato incorrecto";
-   }
-
+    if (letra.length != 1) return "Dato incorrecto";
+      
    var vocales = ["a", "e", "i", "o","u"];
-   if (vocales.includes(letra)) {
-      return "Es vocal";
-   } 
+    if (vocales.includes(letra)) return "Es vocal"; 
 
-   return "Dato incorrecto";
+      return "Dato incorrecto";
 }
 //console.log(esVocal("r"));
 
